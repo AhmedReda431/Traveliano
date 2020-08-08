@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="shaded-wrapper">
+        <nav>
+          <div class="container-fluid">
+            <div class="nav-holder">
+              <div class="logo">
+                <span>traveliano</span>
+              </div>
+              <div class="links d-flex">
+                <ul class="list-unstyled d-flex">
+                  <li><a href="">account</a></li>
+                  <li><a href="">list</a></li>
+                  <li><a href="">trips</a></li>
+                  <li><a href="">support</a></li>
+                </ul>
+              </div>
+              <div class="search">
+                <input type="text" placeholder="Search In WebSite ..." />
+                <span>
+                  <i class="fas fa-search"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="intro">
+          <div class="container text-center">
+            <h1>explore the world</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+              laboriosam, cum sapiente culpa ipsam at facilis labore quaerat
+              impedit voluptates
+            </p>
+          </div>
+        </div>
+        <div class="myTaps text-center">
+          <div class="container">
+            <div class="tap-holder">
+              <div class="tab">
+                <button class="tabLinks active" onclick="openService(event,'flight')">
+                  flight
+                </button>
+                <button class="tabLinks" onclick="openService(event,'hotel')">
+                  hotel
+                </button>
+                <button
+                  class="tabLinks"
+                  onclick="openService(event,'flight_hotel')"
+                >
+                  flight + hotel
+                </button>
+                <button class="tabLinks" onclick="openService(event,'car')">
+                  car
+                </button>
+                <button
+                  class="tabLinks"
+                  onclick="openService(event,'activites')"
+                >
+                  activites
+                </button>
+              </div>
+              <div class="myTabLinks">
+                <div id="flight" class="tabContent active">
+                  <form action="">
+                    <div class="row mb-4">
+                      <div class="col">
+                        <label for="">from</label>
+                        <input
+                          type="text"
+                          name=""
+                          id=""
+                          class="form-control fas fa-plane-departure"
+                          placeholder="&#xf5b0;  City or Airport"
+                        />
+                      </div>
+                      <div class="col">
+                        <label for="">to</label>
+                        <input
+                          type="text"
+                          name=""
+                          id=""
+                          class="form-control fas fa-plane-departure"
+                          placeholder="&#xf5b0;  City or Airport"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col">
+                        <label for="">when</label>
+                        <input class="form-control" placeholder="&#xf073; select date" type="datetime-local" value="2020-08-19T13:45:00" id="example-datetime-local-input">
+                      </div>
+                      <div class="col">
+                        <label for="">with</label>
+                        <input type="text" name="" id="" class="form-control" placeholder="&#xf0c0; Adults  , 2 children" />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div id="hotel" class="tabContent">hotel content</div>
+                <div id="flight_hotel" class="tabContent">
+                  flight + hotel content
+                </div>
+                <div id="car" class="tabContent">car content</div>
+                <div id="activites" class="tabContent">activites content</div>
+                <button class="submit-button btn btn-danger">Explore</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendors/jquery-3.3.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

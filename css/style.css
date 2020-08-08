@@ -1,0 +1,154 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  text-transform: capitalize; }
+
+a, li, button {
+  text-transform: capitalize; }
+  a:hover, li:hover, button:hover {
+    text-decoration: none; }
+
+textarea, input {
+  padding: 10px;
+  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit; }
+
+.wrapper {
+  background: url("./images/Top-Tips-for-Travelling-with-Epilepsy-1.jpg") no-repeat fixed center 0;
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-transform: capitalize; }
+
+.shaded-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.55); }
+  .shaded-wrapper nav {
+    padding: 20px 90px;
+    background-color: #171718cf;
+    border-radius: 0 0 20px 20px;
+    width: 70% auto;
+    margin: auto;
+    width: 80%;
+    font-size: 19px; }
+    .shaded-wrapper nav .nav-holder .logo {
+      display: inline-block; }
+    .shaded-wrapper nav .nav-holder .links {
+      float: right;
+      margin-right: 50px; }
+      .shaded-wrapper nav .nav-holder .links ul li {
+        margin-right: 35px; }
+      .shaded-wrapper nav .nav-holder .links a {
+        color: #fff; }
+    .shaded-wrapper nav .nav-holder .search {
+      position: relative;
+      top: -37px;
+      right: 0; }
+      .shaded-wrapper nav .nav-holder .search input {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        border: none;
+        outline: none;
+        border-radius: 25px;
+        padding: 5px;
+        color: #000;
+        font-size: 17px;
+        text-indent: 10px;
+        caret-color: #000;
+        transition: 0.5s; }
+      .shaded-wrapper nav .nav-holder .search input::placeholder {
+        color: #000; }
+      .shaded-wrapper nav .nav-holder .search span {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        right: 0px;
+        background-color: #2b2b2b;
+        border: 1px solid #0fb9b1;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.5s;
+        outline: none; }
+    .shaded-wrapper nav .nav-holder .search:hover input {
+      width: 320px; }
+    .shaded-wrapper nav .nav-holder .search:hover span {
+      transform: scale(1.07);
+      box-shadow: -3px 0px 15px rgba(0, 0, 0, 0.5); }
+  .shaded-wrapper .intro {
+    margin-top: 10%;
+    margin-bottom: 4%; }
+    .shaded-wrapper .intro h1 {
+      font-size: 50px;
+      margin-bottom: 20px; }
+    .shaded-wrapper .intro p {
+      width: 70%;
+      margin: auto; }
+  .shaded-wrapper .myTaps {
+    width: 80%;
+    margin: auto;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -20px); }
+    .shaded-wrapper .myTaps .submit-button {
+      position: absolute;
+      right: -100px;
+      bottom: 0; }
+    .shaded-wrapper .myTaps .tap-holder {
+      background-color: #171718cf;
+      color: #fff;
+      padding: 2% 4% 3%;
+      border-radius: 30px;
+      height: 300px; }
+      @media (min-width: 992px) and (max-width: 1199.98px) {
+        .shaded-wrapper .myTaps .tap-holder {
+          padding: 5% 4% 5%; } }
+      .shaded-wrapper .myTaps .tap-holder .tab {
+        margin-bottom: 25px; }
+        .shaded-wrapper .myTaps .tap-holder .tab .tabLinks {
+          border: none;
+          outline: none;
+          background: inherit;
+          padding: 12px 30px;
+          border-radius: 4px 4px 0 0;
+          color: inherit; }
+        .shaded-wrapper .myTaps .tap-holder .tab .tabLinks {
+          display: inline-block; }
+      .shaded-wrapper .myTaps .tap-holder .myTabLinks {
+        border-bottom: 2px solid transparent;
+        position: relative;
+        margin: auto;
+        width: 55%;
+        text-align: left; }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .shaded-wrapper .myTaps .tap-holder .myTabLinks {
+            margin: 0;
+            width: 85%;
+            height: 164px; } }
+        .shaded-wrapper .myTaps .tap-holder .myTabLinks .tabContent {
+          padding-left: 30px;
+          display: none; }
+        .shaded-wrapper .myTaps .tap-holder .myTabLinks .tabContent.active {
+          display: block; }
+        .shaded-wrapper .myTaps .tap-holder .myTabLinks form label {
+          display: block;
+          margin-bottom: 0.5rem; }
+      .shaded-wrapper .myTaps .tap-holder .tabLinks.active {
+        border-bottom: 2px solid #fff; }
+
+/*# sourceMappingURL=style.css.map */

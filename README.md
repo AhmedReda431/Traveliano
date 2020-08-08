@@ -1,2 +1,2 @@
 # Traveliano
-Traveliano [ simble page]
+Traveliano [ simple page]

@@ -4,22 +4,25 @@ body {
   height: 100%;
   text-transform: capitalize;
 }
-a,li,button{
+a,
+li,
+button {
   text-transform: capitalize;
-  &:hover{
+  &:hover {
     text-decoration: none;
   }
 }
-textarea, input {
-  padding:10px;
-	font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
+textarea,
+input {
+  padding: 10px;
+  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
 }
 .wrapper {
-  background: url("./images/Top-Tips-for-Travelling-with-Epilepsy-1.jpg") no-repeat fixed
-    center 0;
+  background: url("./images/Top-Tips-for-Travelling-with-Epilepsy-1.jpg")
+    no-repeat fixed center 0;
   position: relative;
   background-size: cover;
   width: 100%;
@@ -124,11 +127,11 @@ textarea, input {
     bottom: 0;
     position: absolute;
     left: 50%;
-    transform: translate(-50%,-20px);
+    transform: translate(-50%, -20px);
     .submit-button {
       position: absolute;
       right: -100px;
-      bottom: 0;
+      bottom: -3px;
     }
     .tap-holder {
       background-color: #171718cf;
@@ -136,7 +139,7 @@ textarea, input {
       padding: 2% 4% 3%;
       border-radius: 30px;
       height: 300px;
-      @media(min-width: 992px)and(max-width: 1199.98px) {
+      @media (min-width: 992px) and(max-width: 1199.98px) {
         padding: 5% 4% 5%;
       }
       .tab {
@@ -159,13 +162,13 @@ textarea, input {
         margin: auto;
         width: 55%;
         text-align: left;
-        @media(min-width: 992px)and(max-width: 1199.98px) {
+        @media (min-width: 992px) and(max-width: 1199.98px) {
           margin: 0;
           width: 85%;
           height: 164px;
         }
         .tabContent {
-          padding-left: 30px;
+          padding-left: 23px;
           display: none;
         }
         .tabContent.active {
@@ -178,8 +181,8 @@ textarea, input {
           }
         }
       }
-      .tabLinks.active{
-        border-bottom:2px solid #fff ;
+      .tabLinks.active {
+        border-bottom: 2px solid #fff;
       }
     }
   }

@@ -29,7 +29,6 @@
         display: block;
     }
     .shaded-wrapper .myTaps .tap-holder {
-        background-color: #6e7482;
         color: #fff;
         padding: 30px 3%;
     }
@@ -52,7 +51,6 @@
         width: 98%;
     }
     .shaded-wrapper .myTaps .tap-holder {
-        background-color: #6e7482;
         color: #fff;
         padding: 30px 3% 68px;
     }

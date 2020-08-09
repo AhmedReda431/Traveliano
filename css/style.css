@@ -4,12 +4,17 @@ body {
   height: 100%;
   text-transform: capitalize; }
 
-a, li, button {
+a,
+li,
+button {
   text-transform: capitalize; }
-  a:hover, li:hover, button:hover {
+  a:hover,
+  li:hover,
+  button:hover {
     text-decoration: none; }
 
-textarea, input {
+textarea,
+input {
   padding: 10px;
   font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
   font-style: normal;
@@ -108,7 +113,7 @@ textarea, input {
     .shaded-wrapper .myTaps .submit-button {
       position: absolute;
       right: -100px;
-      bottom: 0; }
+      bottom: -3px; }
     .shaded-wrapper .myTaps .tap-holder {
       background-color: #171718cf;
       color: #fff;
@@ -141,7 +146,7 @@ textarea, input {
             width: 85%;
             height: 164px; } }
         .shaded-wrapper .myTaps .tap-holder .myTabLinks .tabContent {
-          padding-left: 30px;
+          padding-left: 23px;
           display: none; }
         .shaded-wrapper .myTaps .tap-holder .myTabLinks .tabContent.active {
           display: block; }

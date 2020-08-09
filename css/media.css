@@ -1,68 +1,154 @@
-@media(max-width:766.98px){
-    .shaded-wrapper nav {
-        padding: 20px 0px;
-        width: 95%;
-        font-size: 17px;
-    }
-    .shaded-wrapper nav .nav-holder .links {
-        margin-right: 25px;
-    }
-    .shaded-wrapper .myTaps .tap-holder .tab .tabLinks {
-        padding: 7px;
-    }
-    .shaded-wrapper .myTaps .tap-holder .myTabLinks {
-        position: relative;
-        margin: 0;
-        width: 72%;
-        text-align: left;
-    }
-    .shaded-wrapper .intro {
-        margin-top: 3%;
-    }
-    .shaded-wrapper .intro h1 {
-        font-size: 40px;
-    }
-    .shaded-wrapper .intro p{
-        width: 97%;
-    }
-    .myTabLinks .row{
-        display: block;
-    }
-    .shaded-wrapper .myTaps .tap-holder {
-        color: #fff;
-        padding: 22px 3%;
-    }
-    .shaded-wrapper .myTaps .tap-holder{
-        height: 445px;
-    }
-    .form-control{
-        margin-bottom: 10px;
-    }
+@media (max-width: 575.98px) {
+  .shaded-wrapper nav {
+    width: 100%;
+    font-size: 14px;
+    padding: 20px 0;
+  }
+  .shaded-wrapper nav .nav-holder .search {
+    top: -27px;
+    right: -10px;
+  }
+  .shaded-wrapper nav .nav-holder .search span {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+  .shaded-wrapper nav .nav-holder .search input {
+    width: 35px;
+    height: 35px;
+  }
+  .shaded-wrapper nav .nav-holder .links {
+    margin-right: 0;
+  }
+  .shaded-wrapper .intro {
+    margin-top: 7%;
+    margin-bottom: 0;
+  }
+  .shaded-wrapper .intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .shaded-wrapper .intro p {
+    width: 100%;
+    font-size: 15px;
+  }
+  .shaded-wrapper .myTaps {
+    font-size: 12px;
+  }
+  .shaded-wrapper .myTaps .tap-holder .tab {
+    margin-bottom: 20px;
+  }
+  .form-control {
+    height: 30px;
+    font-size: 15px;
+  }
+  .myTabLinks .row {
+    display: block;
+  }
+  .shaded-wrapper .myTaps .tap-holder .myTabLinks {
+    width: 87%;
+  }
+  .shaded-wrapper .myTaps .submit-button {
+    right: 0px;
+    bottom: -53px;
+  }
+  .shaded-wrapper .myTaps .tap-holder .tab .tabLinks {
+    padding: 12px;
+  }
+  .shaded-wrapper .myTaps {
+    width: 100%;
+  }
+  .shaded-wrapper .myTaps .tap-holder {
+    height: 385px;
+  }
+  .shaded-wrapper .myTaps {
+    transform: translate(-50%);
+  }
+}
+@media (min-width: 576px) and (max-width: 766.98px) {
+  .shaded-wrapper nav {
+    padding: 20px 0px;
+    width: 95%;
+    font-size: 17px;
+  }
+  .shaded-wrapper nav .nav-holder .links {
+    margin-right: 25px;
+  }
+  .shaded-wrapper .myTaps .tap-holder .tab .tabLinks {
+    padding: 20px 13px;
+  }
+  .shaded-wrapper .myTaps .tap-holder .myTabLinks {
+    position: relative;
+    margin: 0;
+    width: 72%;
+    text-align: left;
+  }
+  .shaded-wrapper .intro {
+    margin-top: 10%;
+    margin-bottom: 0;
+  }
+  .shaded-wrapper .intro h1 {
+    font-size: 40px;
+  }
+  .shaded-wrapper .intro p {
+    width: 97%;
+  }
+  .shaded-wrapper .myTaps .tap-holder {
+    color: #fff;
+    padding: 5px 5%;
+    height: 330px;
+  }
+  .form-control {
+    margin-bottom: 10px;
+  }
+  .shaded-wrapper nav {
+    width: 98%;
+    padding: 20px 5px;
+  }
+  .shaded-wrapper .myTaps .tap-holder .tab .tabLinks {
+    padding: 20px 15px;
+  }
+  .shaded-wrapper .myTaps .tap-holder .myTabLinks {
+    width: 100%;
+  }
+  .shaded-wrapper .myTaps .submit-button {
+    right: 0;
+    bottom: -55px;
+  }
+  .shaded-wrapper .myTaps .tap-holder .myTabLinks .tabContent {
+    padding-left: 0;
+  }
+  .shaded-wrapper .myTaps .tap-holder .tab {
+    margin-bottom: 20px;
+  }
+  .form-control {
+    height: 30px;
+  }
 }
 
-@media(min-width:767px) and (max-width:991.98px){
-    .shaded-wrapper nav {
-        padding: 20px;
-    }
-    .shaded-wrapper .myTaps .tap-holder .tab .tabLinks {
-        padding: 12px 25px;
-    }
-    .shaded-wrapper .myTaps .tap-holder .myTabLinks {
-        width: 98%;
-    }
-    .shaded-wrapper .myTaps .tap-holder {
-        color: #fff;
-        padding: 30px 3% 68px;
-    }
-    .shaded-wrapper .myTaps .submit-button {
-        position: absolute;
-        right: 0;
-        bottom: -54px;
-    }
-    .shaded-wrapper .myTaps .tap-holder{
-        height: 340px;
-    }
-    .shaded-wrapper .intro {
-        margin-bottom: 3%;
-    }
+@media (min-width: 767px) and (max-width: 991.98px) {
+  .shaded-wrapper nav {
+    padding: 20px;
+  }
+  .shaded-wrapper .myTaps .tap-holder .tab .tabLinks {
+    padding: 12px 25px;
+  }
+  .shaded-wrapper .myTaps .tap-holder .myTabLinks {
+    width: 98%;
+  }
+  .shaded-wrapper .myTaps .tap-holder {
+    color: #fff;
+    padding: 30px 3% 68px;
+  }
+  .shaded-wrapper .myTaps .submit-button {
+    position: absolute;
+    right: 0;
+    bottom: -54px;
+  }
+  .shaded-wrapper .myTaps .tap-holder {
+    height: 340px;
+  }
+  .shaded-wrapper .intro {
+    margin-bottom: 3%;
+  }
 }
